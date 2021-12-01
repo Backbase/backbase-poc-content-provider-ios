@@ -78,6 +78,7 @@ public struct DrupalPostClient: CMSClient {
 
 extension DrupalPostClient: CMSListClient {
     public func loadItems(completion: @escaping (Result<[CMSItem], Error>) -> Void) {
+        // Replace `post` in the url with whatever your custom content type is called!
         guard let url = URL(string: baseURLString + "/jsonapi/node/post?include=field_image_url") else {
             completion(.failure(ClientError.invalidUrl))
             return
