@@ -9,21 +9,37 @@
 /* Begin PBXBuildFile section */
 		0D3566BF2757783200EA17DD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566BE2757783200EA17DD /* AppDelegate.swift */; };
 		0D3566C12757783200EA17DD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566C02757783200EA17DD /* SceneDelegate.swift */; };
-		0D3566C32757783200EA17DD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566C22757783200EA17DD /* ViewController.swift */; };
+		0D3566C32757783200EA17DD /* PostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566C22757783200EA17DD /* PostViewController.swift */; };
 		0D3566C62757783200EA17DD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3566C42757783200EA17DD /* Main.storyboard */; };
 		0D3566C82757783400EA17DD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D3566C72757783400EA17DD /* Assets.xcassets */; };
 		0D3566CB2757783400EA17DD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D3566C92757783400EA17DD /* LaunchScreen.storyboard */; };
+		0D3566DD2757B0F500EA17DD /* DrupalPostClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566DB2757B0F500EA17DD /* DrupalPostClient.swift */; };
+		0D3566DE2757B0F500EA17DD /* CMSClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566DC2757B0F500EA17DD /* CMSClient.swift */; };
+		0D3566E12757B12F00EA17DD /* DataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566E02757B12F00EA17DD /* DataClient.swift */; };
+		0D3566E32757B13800EA17DD /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566E22757B13800EA17DD /* ApiClient.swift */; };
+		0D3566E52757B19200EA17DD /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566E42757B19200EA17DD /* DataParser.swift */; };
+		0D3566EC2757B25100EA17DD /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566EA2757B25100EA17DD /* PostsViewModel.swift */; };
+		0D3566ED2757B25100EA17DD /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566EB2757B25100EA17DD /* PostsTableViewController.swift */; };
+		0D3566EF2757B28200EA17DD /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566EE2757B28100EA17DD /* PostViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0D3566BB2757783200EA17DD /* backbase-poc-content-provider-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "backbase-poc-content-provider-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D3566BE2757783200EA17DD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D3566C02757783200EA17DD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		0D3566C22757783200EA17DD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D3566C22757783200EA17DD /* PostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewController.swift; sourceTree = "<group>"; };
 		0D3566C52757783200EA17DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0D3566C72757783400EA17DD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0D3566CA2757783400EA17DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0D3566CC2757783400EA17DD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D3566DB2757B0F500EA17DD /* DrupalPostClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrupalPostClient.swift; sourceTree = "<group>"; };
+		0D3566DC2757B0F500EA17DD /* CMSClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CMSClient.swift; sourceTree = "<group>"; };
+		0D3566E02757B12F00EA17DD /* DataClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataClient.swift; sourceTree = "<group>"; };
+		0D3566E22757B13800EA17DD /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
+		0D3566E42757B19200EA17DD /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
+		0D3566EA2757B25100EA17DD /* PostsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostsViewModel.swift; path = ../../../../CMSWhitePaper/CMSWhitePaper/PostsViewModel.swift; sourceTree = "<group>"; };
+		0D3566EB2757B25100EA17DD /* PostsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostsTableViewController.swift; path = ../../../../CMSWhitePaper/CMSWhitePaper/PostsTableViewController.swift; sourceTree = "<group>"; };
+		0D3566EE2757B28100EA17DD /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +92,10 @@
 		0D3566D72757AFD600EA17DD /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				0D3566C22757783200EA17DD /* ViewController.swift */,
+				0D3566E72757B20300EA17DD /* UI */,
+				0D3566E62757B1A200EA17DD /* Helpers */,
+				0D3566DF2757B11800EA17DD /* DataClient */,
+				0D3566DA2757B0BF00EA17DD /* CMSClient */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -97,6 +116,43 @@
 				0D3566C92757783400EA17DD /* LaunchScreen.storyboard */,
 			);
 			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		0D3566DA2757B0BF00EA17DD /* CMSClient */ = {
+			isa = PBXGroup;
+			children = (
+				0D3566DC2757B0F500EA17DD /* CMSClient.swift */,
+				0D3566DB2757B0F500EA17DD /* DrupalPostClient.swift */,
+			);
+			path = CMSClient;
+			sourceTree = "<group>";
+		};
+		0D3566DF2757B11800EA17DD /* DataClient */ = {
+			isa = PBXGroup;
+			children = (
+				0D3566E02757B12F00EA17DD /* DataClient.swift */,
+				0D3566E22757B13800EA17DD /* ApiClient.swift */,
+			);
+			path = DataClient;
+			sourceTree = "<group>";
+		};
+		0D3566E62757B1A200EA17DD /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				0D3566E42757B19200EA17DD /* DataParser.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		0D3566E72757B20300EA17DD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				0D3566C22757783200EA17DD /* PostViewController.swift */,
+				0D3566EE2757B28100EA17DD /* PostViewModel.swift */,
+				0D3566EB2757B25100EA17DD /* PostsTableViewController.swift */,
+				0D3566EA2757B25100EA17DD /* PostsViewModel.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,9 +225,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0D3566C32757783200EA17DD /* ViewController.swift in Sources */,
+				0D3566E32757B13800EA17DD /* ApiClient.swift in Sources */,
+				0D3566C32757783200EA17DD /* PostViewController.swift in Sources */,
+				0D3566E52757B19200EA17DD /* DataParser.swift in Sources */,
+				0D3566DE2757B0F500EA17DD /* CMSClient.swift in Sources */,
+				0D3566E12757B12F00EA17DD /* DataClient.swift in Sources */,
+				0D3566EC2757B25100EA17DD /* PostsViewModel.swift in Sources */,
 				0D3566BF2757783200EA17DD /* AppDelegate.swift in Sources */,
+				0D3566EF2757B28200EA17DD /* PostViewModel.swift in Sources */,
+				0D3566DD2757B0F500EA17DD /* DrupalPostClient.swift in Sources */,
 				0D3566C12757783200EA17DD /* SceneDelegate.swift in Sources */,
+				0D3566ED2757B25100EA17DD /* PostsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
