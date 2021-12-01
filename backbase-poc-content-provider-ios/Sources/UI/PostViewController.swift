@@ -17,7 +17,6 @@ class PostViewController: UIViewController {
         didSet {
             titleLabel?.text = item?.title
             descriptionLabel?.text = item?.content
-            customImageView?.image = image
         }
     }
     var image: UIImage?
