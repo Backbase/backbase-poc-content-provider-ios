@@ -56,15 +56,47 @@
 		0D3566BD2757783200EA17DD /* backbase-poc-content-provider-ios */ = {
 			isa = PBXGroup;
 			children = (
-				0D3566BE2757783200EA17DD /* AppDelegate.swift */,
-				0D3566C02757783200EA17DD /* SceneDelegate.swift */,
-				0D3566C22757783200EA17DD /* ViewController.swift */,
-				0D3566C42757783200EA17DD /* Main.storyboard */,
-				0D3566C72757783400EA17DD /* Assets.xcassets */,
-				0D3566C92757783400EA17DD /* LaunchScreen.storyboard */,
-				0D3566CC2757783400EA17DD /* Info.plist */,
+				0D3566D92757AFFA00EA17DD /* Storyboards */,
+				0D3566D82757AFE200EA17DD /* Resources */,
+				0D3566D72757AFD600EA17DD /* Sources */,
+				0D3566D62757AFCC00EA17DD /* App */,
 			);
 			path = "backbase-poc-content-provider-ios";
+			sourceTree = "<group>";
+		};
+		0D3566D62757AFCC00EA17DD /* App */ = {
+			isa = PBXGroup;
+			children = (
+				0D3566BE2757783200EA17DD /* AppDelegate.swift */,
+				0D3566C02757783200EA17DD /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		0D3566D72757AFD600EA17DD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0D3566C22757783200EA17DD /* ViewController.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0D3566D82757AFE200EA17DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0D3566C72757783400EA17DD /* Assets.xcassets */,
+				0D3566CC2757783400EA17DD /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0D3566D92757AFFA00EA17DD /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				0D3566C42757783200EA17DD /* Main.storyboard */,
+				0D3566C92757783400EA17DD /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +320,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NT5QR24SX;
-				INFOPLIST_FILE = "backbase-poc-content-provider-ios/Info.plist";
+				INFOPLIST_FILE = "backbase-poc-content-provider-ios/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +339,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 2NT5QR24SX;
-				INFOPLIST_FILE = "backbase-poc-content-provider-ios/Info.plist";
+				INFOPLIST_FILE = "backbase-poc-content-provider-ios/Resources/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
