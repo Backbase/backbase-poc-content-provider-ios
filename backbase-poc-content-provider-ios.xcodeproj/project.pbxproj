@@ -18,9 +18,9 @@
 		0D3566E12757B12F00EA17DD /* DataClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566E02757B12F00EA17DD /* DataClient.swift */; };
 		0D3566E32757B13800EA17DD /* ApiClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566E22757B13800EA17DD /* ApiClient.swift */; };
 		0D3566E52757B19200EA17DD /* DataParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566E42757B19200EA17DD /* DataParser.swift */; };
-		0D3566EC2757B25100EA17DD /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566EA2757B25100EA17DD /* PostsViewModel.swift */; };
-		0D3566ED2757B25100EA17DD /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566EB2757B25100EA17DD /* PostsTableViewController.swift */; };
 		0D3566EF2757B28200EA17DD /* PostViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3566EE2757B28100EA17DD /* PostViewModel.swift */; };
+		0D430C47275A427300575488 /* PostsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D430C45275A427200575488 /* PostsTableViewController.swift */; };
+		0D430C48275A427300575488 /* PostsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D430C46275A427300575488 /* PostsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,9 +37,9 @@
 		0D3566E02757B12F00EA17DD /* DataClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataClient.swift; sourceTree = "<group>"; };
 		0D3566E22757B13800EA17DD /* ApiClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiClient.swift; sourceTree = "<group>"; };
 		0D3566E42757B19200EA17DD /* DataParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataParser.swift; sourceTree = "<group>"; };
-		0D3566EA2757B25100EA17DD /* PostsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostsViewModel.swift; path = ../../../../CMSWhitePaper/CMSWhitePaper/PostsViewModel.swift; sourceTree = "<group>"; };
-		0D3566EB2757B25100EA17DD /* PostsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PostsTableViewController.swift; path = ../../../../CMSWhitePaper/CMSWhitePaper/PostsTableViewController.swift; sourceTree = "<group>"; };
 		0D3566EE2757B28100EA17DD /* PostViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostViewModel.swift; sourceTree = "<group>"; };
+		0D430C45275A427200575488 /* PostsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsTableViewController.swift; sourceTree = "<group>"; };
+		0D430C46275A427300575488 /* PostsViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,10 +147,10 @@
 		0D3566E72757B20300EA17DD /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				0D430C45275A427200575488 /* PostsTableViewController.swift */,
+				0D430C46275A427300575488 /* PostsViewModel.swift */,
 				0D3566C22757783200EA17DD /* PostViewController.swift */,
 				0D3566EE2757B28100EA17DD /* PostViewModel.swift */,
-				0D3566EB2757B25100EA17DD /* PostsTableViewController.swift */,
-				0D3566EA2757B25100EA17DD /* PostsViewModel.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -230,12 +230,12 @@
 				0D3566E52757B19200EA17DD /* DataParser.swift in Sources */,
 				0D3566DE2757B0F500EA17DD /* CMSClient.swift in Sources */,
 				0D3566E12757B12F00EA17DD /* DataClient.swift in Sources */,
-				0D3566EC2757B25100EA17DD /* PostsViewModel.swift in Sources */,
 				0D3566BF2757783200EA17DD /* AppDelegate.swift in Sources */,
 				0D3566EF2757B28200EA17DD /* PostViewModel.swift in Sources */,
+				0D430C48275A427300575488 /* PostsViewModel.swift in Sources */,
 				0D3566DD2757B0F500EA17DD /* DrupalPostClient.swift in Sources */,
 				0D3566C12757783200EA17DD /* SceneDelegate.swift in Sources */,
-				0D3566ED2757B25100EA17DD /* PostsTableViewController.swift in Sources */,
+				0D430C47275A427300575488 /* PostsTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
